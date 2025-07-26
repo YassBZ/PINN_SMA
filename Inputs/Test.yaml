@@ -1,0 +1,35 @@
+Mode: "Classic"
+
+Material:
+  name: 'Test'
+  E: 70000
+  nu: 0.3
+
+  alpha: 8e-6
+
+  F_epsilon: 100
+
+  H_s: 50
+  H_f: 4
+  H_twin: 40000
+  H_epsilon_T: 1000
+
+  epsilon_trac_T: 0.05
+  epsilon_trac_T_FA: 0.04
+  epsilon_comp_T: 0.04
+
+  Br: 0.3
+  Bf: 0.25
+  br: 7
+  bf: 4.2
+  Ms: -40
+  Af: 20
+  rf: 0.6
+
+  Tinit: 20
+
+  alpha0: 0.1
+  alpha1: 0.1
+  alpha2: 0.5
+
+  n: 5

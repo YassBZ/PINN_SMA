@@ -1,0 +1,77 @@
+Mode: "Grid"
+
+LoadingType: "Pressure"
+
+Config:
+  InputSize: 4
+  PropsSize: 20
+  ArrayExtent: [0, 199]
+  NCPUperNode: 22
+  ConstantProps:
+    YoungModulus: 70000
+    PoissonRatio: 0.3
+    DilationFactor: 0.0000006
+    EpsilonTracT: 0.05
+    EpsilonTracTFA: 0.04
+    EpsilonCompT: 0.04
+    Bf: 5
+    Br: 6
+    rf: 0.6
+    Fepsilon: 100
+    alpha0: 0.01
+    alpha1: 0.01
+    alpha2: 0.05
+    n: 5
+  ConstantInputs:
+    Py: 0
+    Pz: 0
+
+PropsGrid:
+  Ms:
+    Start: -70
+    End: -35
+    Steps: null
+    Nsteps: 6
+
+  Af:
+    Start: -30
+    End: -5
+    Steps: 5
+    Nsteps: null
+
+  Hf:
+    Start: 3
+    End: 5
+    Steps: 0.5
+    Nsteps: null
+
+  Hepsilon:
+    Start: 800
+    End: 1200
+    Steps: null
+    Nsteps: 6
+
+  Htwin:
+    Start: 30000
+    End: 50000
+    Steps: null
+    Nsteps: 4
+
+  Hs:
+    Start: 40
+    End: 60
+    Steps: 20
+    Nsteps: null
+
+InputGrid:
+  Px:
+    Start: -800
+    End: -400
+    Steps: 40
+    Nsteps: null
+
+  T:
+    Start: 0
+    End: 80
+    Steps: 10
+    Nsteps: null
