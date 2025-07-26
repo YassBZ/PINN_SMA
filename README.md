@@ -1,2 +1,2 @@
 # PINN_SMA
-Physics Informed Neural Network Code for Shape memory Alloy Thermomechanical Response Prediction
+Physics Informed Neural Network Code for Shape Memory Alloy Thermomechanical Response Prediction
